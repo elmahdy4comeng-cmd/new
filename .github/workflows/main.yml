@@ -8,5 +8,5 @@ jobs:
     steps:
     - name: Enable RDP
       run: |
-        net user admin P@ss2022
+        net user runneradmin YourPassword123
         net localgroup administrators runneradmin /add
