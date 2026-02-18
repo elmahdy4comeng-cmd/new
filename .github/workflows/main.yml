@@ -6,7 +6,5 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-    - name: Enable RDP
-      run: |
-        net user runneradmin YourPassword123
-        net localgroup administrators runneradmin /add
+    - name: Set Password
+      run: net user runneradmin P@ssw0rd1234!
